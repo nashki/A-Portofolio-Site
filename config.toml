@@ -1,3 +1,76 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://examplesite.com"
+title = "A portofolio Site | @ikhsannhuda"
+theme = "nashki"
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/fontawesome/font-awesome.min.css"
+[[params.plugins.css]]
+link = "plugins/hover/hover.css"
+[[params.plugins.css]]
+link = "plugins/text-animation/text-animation.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/wow.min.js"
+[[params.plugins.js]]
+link = "plugins/text-animation/text-animation.js"
+[[params.plugins.js]]
+link = "plugins/jquery.waypoints.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/owl-carousel/owl.carousel.min.js"
+
+
+##### navigation #####
+
+# main menu
+[[menu.main]]
+name = "Home"
+URL = "#home"
+weight = 1
+
+[[menu.main]]
+name = "Personal Site"
+URL = "https://ikhsannhuda.web.app/"
+weight = 2
+
+[[menu.main]]
+name = "Email"
+URL = "mailto:hello@nashki.dev"
+weight = 3
+
+# default parameters #
+[params]
+# Meta data
+description = "This is meta description"
+author = "nashki"
+
+  
+############################# social site ########################
+
+[[params.social]]
+icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://twitter.com/ikhsannhuda"
+
+[[params.social]]
+icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://github.com/nashki"
+
+[[params.social]]
+icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "https://www.linkedin.com/in/ikhsannhuda/"
+
